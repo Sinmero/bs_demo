@@ -1,0 +1,73 @@
+/*.nav-pills .nav-link {*/
+    /*color: #e8d445!important;*/
+    /*-webkit-transition: color 0.5s;*/
+    /*-moz-transition: color 0.5s;*/
+    /*-ms-transition: color 0.5s;*/
+    /*-o-transition: color 0.5s;*/
+    /*transition: color 0.5s;*/
+/*}*/
+
+/*.nav-pills .nav-link:hover {*/
+    /*color: #e89800!important;*/
+/*}*/
+
+.img-1 {
+    height: 10%;
+    background-color: #ff7752;
+}
+
+.img-2 {
+    height: 10%;
+    background-color: #4b62ff;
+}
+
+.side-navbar .dropright > a {
+    border-radius: 0;
+}
+
+.side-navbar .dropright > a::after {
+    float: right;
+    margin-top: .5rem;
+}
+
+.side-navbar .dropright .dropdown-item span {
+    margin-left: 0.5rem;
+}
+
+.side-navbar .dropdown-menu > a {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 10px 0 10px 0;
+    border-radius: 0;
+}
+
+.side-navbar .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.side-navbar .dropdown-menu > a:last-child {
+    border-bottom: none;
+}
+
+.side-navbar .prod-cards .card {
+    /*border: none;*/
+}
+
+html {
+    font-size: 1rem;
+}
+
+@media (max-width: 575px) { html {
+    font-size: 0.7rem;
+} }
+
+@media (min-width: 576px) and (max-width: 767px) { html {
+    font-size: 0.8rem;
+} }
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    html {
+        font-size: 0.9rem;
+    }
+}
