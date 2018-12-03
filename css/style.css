@@ -21,6 +21,11 @@
     background-color: #4b62ff;
 }
 
+/*.navbar {*/
+    /*z-index: 500;*/
+    /*position: absolute;*/
+/*}*/
+
 .side-navbar .dropright > a {
     border-radius: 0;
 }
