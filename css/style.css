@@ -49,6 +49,37 @@
     border-bottom: none;
 }
 
-.side-navbar .prod-cards .card {
-    /*border: none;*/
+.side-navbar .about .lead {
+    font-size: 1rem;
+}
+
+.side-navbar .line {
+    background-color: rgba(0,0,0,.125);
+}
+
+.side-navbar .footer i {
+    font-size: 2rem;
+    color: #6c757d;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.side-navbar .footer .fa-twitter-square:hover {
+    color: #55acee;
+}
+
+.side-navbar .footer .fa-facebook:hover {
+    color: #3b5998;
+}
+.side-navbar .footer .fa-vk:hover:hover {
+    color: #3b5998;
+}
+.side-navbar .footer .fa-youtube:hover {
+    color: #dd4b39;
+}
+.side-navbar .footer .fa-instagram:hover {
+    color: #0976b4;
 }

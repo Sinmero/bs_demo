@@ -1,4 +1,6 @@
 $('document').ready(function () {
+
+    // window.location.href = "lc";
     
     $('.side-navbar .dropright').hover(function () {
 
