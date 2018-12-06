@@ -26,6 +26,10 @@
     /*position: absolute;*/
 /*}*/
 
+.side-navbar {
+    margin-right: 0;
+}
+
 .side-navbar .dropright > a {
     border-radius: 0;
 }
