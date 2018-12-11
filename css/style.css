@@ -63,14 +63,30 @@
     margin: 0;
 }
 
+
+.side-navbar .footer .fa-twitter-square {
+    color: #1da1f2;
+}
+.side-navbar .footer .fa-facebook {
+    color: #3b5998;
+}
+.side-navbar .footer .fa-vk {
+    color: #45668e;
+}
+.side-navbar .footer .fa-youtube {
+    color: #ff0000;
+}
+.side-navbar .footer .fa-instagram {
+    color: #5851db;
+}
+
 .side-navbar .footer .fa-twitter-square:hover {
     color: #55acee;
 }
-
 .side-navbar .footer .fa-facebook:hover {
     color: #3b5998;
 }
-.side-navbar .footer .fa-vk:hover:hover {
+.side-navbar .footer .fa-vk:hover {
     color: #3b5998;
 }
 .side-navbar .footer .fa-youtube:hover {
