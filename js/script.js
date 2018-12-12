@@ -21,16 +21,16 @@ $('document').ready(function () {
 
     $('.navbar .input-group .btn').hover(function () {
 
-        $('.navbar .input-group .form-control').focus().stop()
+        $('.navbar .input-group .s-lg').focus().stop()
             .css('backgroundColor', 'rgba(255,255,255,1.0)')
             .css('opacity', '1.0')
             .animate({width: '1%'}, 200);
 
     });
 
-    $('.navbar .input-group .form-control').focusout(function () {
+    $('.navbar .input-group .s-lg').focusout(function () {
         
-        $('.navbar .input-group .form-control').stop()
+        $('.navbar .input-group .s-lg').stop()
             .css('backgroundColor', 'rgba(255,255,255,1.0)')
             .css('opacity', '0.0')
             .animate({width: '0'}, 200)
