@@ -15,7 +15,7 @@ $('document').ready(function () {
 
         $('.show-more').addClass('d-block').removeClass('d-none');
 
-        $('.more-categories').css('display', 'none')
+        $('.more-categories').removeClass('d-md-block').removeClass('d-sm-block').addClass('d-none')
 
     });
 
@@ -24,7 +24,7 @@ $('document').ready(function () {
         $('.navbar .input-group .s-lg').focus().stop()
             .css('backgroundColor', 'rgba(255,255,255,1.0)')
             .css('opacity', '1.0')
-            .animate({width: '1%'}, 200);
+            .animate({width: '12rem'}, 200);
 
     });
 
